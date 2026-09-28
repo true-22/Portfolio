@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joseph Mwangi Ndung'u — Caraxes | Software Developer &amp; AI/ML Engineer</title>
+<meta name="description" content="Portfolio of Joseph Mwangi Ndung'u — Software Developer and AI/ML Engineer. Full-stack development, AI/ML systems, and networking infrastructure. Caraxes: Uncompromising Excellence. Undeniable Results.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ================= NAV ================= -->
+<div class="nav-wrap">
+  <nav class="nav">
+    <a href="#home" class="brand-logo">
+      <img src="assets/logo-dark.png" alt="Caraxes" class="logo-img logo-img-dark">
+      <img src="assets/logo-light.png" alt="Caraxes" class="logo-img logo-img-light">
+    </a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+
+    <div class="nav-right">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+      </button>
+      <button class="nav-burger" id="navBurger" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </nav>
+</div>
+
+<!-- ================= HERO ================= -->
+<section id="home" class="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <h1>Hi, I'm Joseph Ndung'u<span class="role">Software Developer &amp; AI/ML Engineer</span></h1>
+      <p class="hero-desc">Bridging the gap between complex artificial intelligence and accessible software solutions. I specialize in full-stack development, automated data pipelines, and robust networking infrastructure.</p>
+
+      <div class="hero-actions">
+        <a href="assets/Joseph_Ndungu_CV.pdf" download class="btn btn-primary">
+          Download CV
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 21h16"/></svg>
+        </a>
+        <a href="#projects" class="btn btn-ghost">View My Work</a>
+      </div>
+
+      <div class="hero-connect">
+        <span>CONNECT</span>
+        <div class="social-icons">
+          <a href="https://github.com/true-22" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.74.5 12.02c0 5.1 3.29 9.42 7.86 10.95.58.1.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.4-5.28 5.69.42.36.78 1.07.78 2.16 0 1.56-.02 2.82-.02 3.2 0 .32.21.67.8.56A10.53 10.53 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/joseph-ndungu-dev/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.03-1.85-3.03-1.86 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.48-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="orb-panel">
+        <div class="monogram">JN</div>
+        <svg viewBox="0 0 400 400" fill="none">
+          <circle cx="200" cy="200" r="150" stroke="var(--border)" stroke-width="1"/>
+          <circle cx="200" cy="200" r="110" stroke="var(--border)" stroke-width="1"/>
+          <circle cx="200" cy="200" r="70" stroke="var(--accent)" stroke-width="1.4" stroke-dasharray="4 6"/>
+          <circle cx="200" cy="50" r="4" fill="var(--accent)"/>
+          <circle cx="350" cy="200" r="4" fill="var(--accent)"/>
+          <circle cx="90" cy="310" r="4" fill="var(--accent)"/>
+          <circle cx="120" cy="90" r="3" fill="var(--text-faint)"/>
+          <circle cx="300" cy="320" r="3" fill="var(--text-faint)"/>
+        </svg>
+      </div>
+      <div class="stat-float stat-1">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></span>
+        AI &amp; ML Specialist
+      </div>
+      <div class="stat-float stat-2">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg></span>
+        Full-Stack Developer
+      </div>
+      <div class="stat-float stat-3">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 21h8M12 16v5"/></svg></span>
+        BSc Computer Science
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div>
+        <div class="section-head reveal">
+          <p class="eyebrow">About</p>
+          <h2>Grounded in fundamentals, built for real systems.</h2>
+        </div>
+
+        <div class="about-cols">
+          <div>
+            <h3>Who I Am</h3>
+            <p>I'm a BSc Computer Science graduate from Machakos University, specializing in Artificial Intelligence and Machine Learning. My academic foundation is matched by hands-on experience managing enterprise-scale ICT infrastructure at Kenya Power &amp; Lighting Co. (KPLC).</p>
+          </div>
+          <div>
+            <h3>My Approach</h3>
+            <p>I learn fast and communicate clearly — translating dense technical findings into decisions non-technical stakeholders can act on. Every system I build is judged against one standard: does it hold up under real conditions.</p>
+          </div>
+        </div>
+
+        <div class="detail-block">
+          <p class="label">Personal Details</p>
+          <div class="detail-grid">
+            <div>
+              <p class="k">FULL NAME</p>
+              <p class="v">Joseph Mwangi Ndung'u</p>
+            </div>
+            <div>
+              <p class="k">DEGREE</p>
+              <p class="v">BSc Computer Science (AI &amp; ML)</p>
+            </div>
+            <div>
+              <p class="k">UNIVERSITY</p>
+              <p class="v">Machakos University</p>
+            </div>
+            <div>
+              <p class="k">PRIOR ROLE</p>
+              <p class="v">ICT Intern, KPLC</p>
+            </div>
+            <div>
+              <p class="k">LOCATION</p>
+              <p class="v">Nairobi, Kenya</p>
+            </div>
+            <div>
+              <p class="k">EMAIL</p>
+              <p class="v">josephndungu10433@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-visual">
+        <svg viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="400" height="500" fill="var(--bg-elev-2)"/>
+          <g stroke="var(--border)" stroke-width="1">
+            <line x1="0" y1="100" x2="400" y2="100"/>
+            <line x1="0" y1="220" x2="400" y2="220"/>
+            <line x1="0" y1="340" x2="400" y2="340"/>
+            <line x1="130" y1="0" x2="130" y2="500"/>
+            <line x1="270" y1="0" x2="270" y2="500"/>
+          </g>
+          <circle cx="130" cy="100" r="5" fill="var(--accent)"/>
+          <circle cx="270" cy="220" r="5" fill="var(--accent)"/>
+          <circle cx="130" cy="340" r="5" fill="var(--text-faint)"/>
+          <circle cx="270" cy="100" r="3" fill="var(--text-faint)"/>
+          <path d="M130 100L270 220L130 340" stroke="var(--accent)" stroke-width="1.4" stroke-dasharray="5 7"/>
+          <text x="145" y="95" fill="var(--text)" font-family="Inter, sans-serif" font-size="13" font-weight="700" letter-spacing="1">SYSTEMS</text>
+          <text x="285" y="215" fill="var(--text)" font-family="Inter, sans-serif" font-size="13" font-weight="700" letter-spacing="1">NETWORKS</text>
+          <text x="145" y="335" fill="var(--text)" font-family="Inter, sans-serif" font-size="13" font-weight="700" letter-spacing="1">AI</text>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section id="skills">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Tech Stack</p>
+      <h2>Tools I use to ship uncompromising work.</h2>
+      <p>A working stack spanning full-stack web development, applied machine learning, and enterprise networking.</p>
+    </div>
+
+    <div class="stack-tabs" id="stackTabs">
+      <button class="stack-tab active" data-target="panel-web">Web &amp; Core</button>
+      <button class="stack-tab" data-target="panel-ai">AI &amp; ML</button>
+      <button class="stack-tab" data-target="panel-net">Networking</button>
+    </div>
+
+    <div class="stack-grid stack-panel active" id="panel-web">
+      <!-- Web & Core skills -->
+      <div class="skill-card"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 100 20 10 10 0 000-20z"/><path d="M2 12h20M12 2c2.5 2.7 4 6.3 4 10s-1.5 7.3-4 10c-2.5-2.7-4-6.3-4-10s1.5-7.3 4-10z"/></svg></span><span class="name">Python</span></div>
+      <div class="skill-card"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 00-2 2v3M16 3h3a2 2 0 012 2v3M8 21H5a2 2 0 01-2-2v-3M16 21h3a2 2 0 002-2v-3"/></svg></span><span class="name">JavaScript</span></div>
+      <div class="skill-card"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l9 4.5v9L12 20l-9-4.5v-9L12 2z"/></svg></span><span class="name">Java</span></div>
+      <div class="skill-card"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v12c0 1.66 3.58 3 8 3s8-1.34 8-3V6"/><path d="M4 12c0 1.66 3.58 3 8 3s8-1.34 8-3"/></svg></span><span class="name">SQL</span></div>
+      <div class="skill-card"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 3l1.5 17L12 22l6.5-2L20 3H4z"/><path d="M8 8h8l-.4 4.5H9l.3 3 2.7.8 2.7-.8.2-2.3"/></svg></span><span class="name">HTML / CSS</span></div>
+      <div class="skill-card"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="5" r="2"/><circle cx="6" cy="19" r="2"/><circle cx="18" cy="19" r="2"/><path d="M12 7v6M12 13l-6 4M12 13l6 4"/></svg></span><span class="name">Git</span></div>
+      <div class="skill-card"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg></span><span class="name">Django</span></div>
+      <div class="skill-card"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 17l6-6-6-6M12 19h8"/></svg></span><span class="name">RESTful APIs</span></div>
+    </div>
+
+    <div class="stack-grid stack-panel" id="panel-ai">
+      <!-- AI & ML skills -->
+      <div class="skill-card"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="6" r="2.5"/><circle cx="12" cy="18" r="2.5"/><path d="M8 7l4 9M16 7l-4 9M8.5 6h7"/></svg></span><span class="name">TensorFlow</span></div>
+      <div class="skill-card"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="6" height="6" rx="1"/><rect x="14" y="4" width="6" height="6" rx="1"/><rect x="4" y="14" width="6" height="6" rx="1"/><rect x="14" y="14" width="6" height="6" rx="1"/><path d="M10 7h4M10 17h4M7 10v4M17 10v4"/></svg></span><span class="name">Keras</span></div>
+      <div class="skill-card"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8"/></svg></span><span class="name">Scikit-learn</span></div>
+      <div class="skill-card"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 9v11"/></svg></span><span class="name">Pandas</span></div>
+      <div class="skill-card"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4v16h16M8 15l3-4 3 3 4-6"/></svg></span><span class="name">NumPy</span></div>
+      <div class="skill-card"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="12" width="4" height="8"/><rect x="10" y="7" width="4" height="13"/><rect x="17" y="3" width="4" height="17"/></svg></span><span class="name">Power BI</span></div>
+    </div>
+
+    <div class="stack-grid stack-panel" id="panel-net">
+      <!-- Networking skills -->
+      <div class="skill-card"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="8" rx="1"/><rect x="4" y="14" width="16" height="6" rx="1"/><circle cx="8" cy="8" r="1"/><circle cx="8" cy="17" r="1"/></svg></span><span class="name">SCADA Systems</span></div>
+      <div class="skill-card"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="5" r="2.2"/><circle cx="5" cy="19" r="2.2"/><circle cx="19" cy="19" r="2.2"/><path d="M12 7.2V12M12 12L6.6 17M12 12l5.4 5"/></svg></span><span class="name">TCP/IP</span></div>
+      <div class="skill-card"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M6 10h.01M10 10h.01M14 10h.01M18 10h.01M6 14h12"/></svg></span><span class="name">Network Infrastructure</span></div>
+      <div class="skill-card"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6l8-3 8 3M4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6"/></svg></span><span class="name">Structured Cabling</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= EXPERIENCE ================= -->
+<section id="experience">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Experience</p>
+      <h2>Where the fundamentals were tested.</h2>
+    </div>
+
+    <div class="timeline">
+      <div class="tl-item">
+        <span class="tl-dot"></span>
+        <div class="tl-card">
+          <p class="tl-date">MAY 2025 — JUL 2025</p>
+          <h3 class="tl-role">ICT Intern</h3>
+          <p class="tl-org">KENYA POWER &amp; LIGHTING CO. (KPLC)</p>
+          <ul class="tl-bullets">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6L9 17l-5-5"/></svg>Diagnosed and resolved complex hardware, software, and networking faults across enterprise systems.</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6L9 17l-5-5"/></svg>Supported SCADA operations, assisting with monitoring and troubleshooting of grid control systems.</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6L9 17l-5-5"/></svg>Maintained and updated enterprise ICT inventory, ensuring accurate asset tracking and lifecycle management.</li>
+          </ul>
+          <div class="tag-row">
+            <span class="tag">SCADA</span>
+            <span class="tag">TCP/IP</span>
+            <span class="tag">Structured Cabling</span>
+            <span class="tag">Hardware Diagnostics</span>
+            <span class="tag">ICT Inventory</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Projects</p>
+      <h2>Selected work.</h2>
+      <p>Systems built end-to-end — from model training and data pipelines to the interfaces people actually use.</p>
+    </div>
+
+    <div class="project-grid">
+
+      <!-- data-link: set to a live project URL to make the whole card clickable (opens in a new tab). Leave empty to keep it non-clickable. -->
+      <article class="project-card" data-link="https://huggingface.co/spaces/True-22/shamba-smart">
+        <div class="project-media">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 22s8-4.5 8-11.8C20 5.4 16.4 2 12 2S4 5.4 4 10.2C4 17.5 12 22 12 22z"/><path d="M12 8v7M9 11l3-3 3 3"/></svg>
+        </div>
+        <div class="project-body">
+          <p class="project-date">2025 — 2026</p>
+          <h3 class="project-title">Plant Disease Detection System</h3>
+          <p class="project-desc">AI-powered CNN image classification system trained on 50,000+ images, deployed through a full-stack Django web application backed by a SQL database.</p>
+          <div class="project-tags">
+            <span class="tag">TensorFlow</span><span class="tag">Keras</span><span class="tag">CNN</span><span class="tag">Django</span><span class="tag">SQL</span>
+          </div>
+          <p class="project-more">Live on Hugging Face as "Shamba Smart," built on an EfficientNetB4 classification architecture. Grounded in field research and interviews with farmers, it returns a diagnosis, confidence score, severity rating, and organic treatment recommendations from a single leaf photo.</p>
+          <div class="project-foot">
+            <button class="project-toggle">Details <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 9l6 6 6-6"/></svg></button>
+          </div>
+        </div>
+      </article>
+
+      <!-- data-link: add the live URL here once available -->
+      <article class="project-card" data-link="">
+        <div class="project-media">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2C9 2 7 4.5 7 7.5c0 2 1 3.3 1 5 0 1.5-1 2-1 4.5S8 22 12 22s5-2.5 5-5-1-3-1-4.5c0-1.7 1-3 1-5C17 4.5 15 2 12 2z"/><path d="M12 6v10M9 10c1 .8 2 .8 3 0s2-.8 3 0"/></svg>
+        </div>
+        <div class="project-body">
+          <p class="project-date">2024 — 2025</p>
+          <h3 class="project-title">Automated Class Attendance System</h3>
+          <p class="project-desc">Biometric fingerprint recognition pipeline with automated data validation and a live reporting dashboard.</p>
+          <div class="project-tags">
+            <span class="tag">Python</span><span class="tag">Biometrics</span><span class="tag">Data Validation</span><span class="tag">SQL</span>
+          </div>
+          <p class="project-more">Replaced manual sign-in sheets with fingerprint capture, validated against enrolled records in real time, then rolled straight into an attendance dashboard for instructors.</p>
+          <div class="project-foot">
+            <button class="project-toggle">Details <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 9l6 6 6-6"/></svg></button>
+          </div>
+        </div>
+      </article>
+
+      <!-- data-link: add the live URL here once available -->
+      <article class="project-card" data-link="">
+        <div class="project-media">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/><path d="M9 7h7M9 11h7"/></svg>
+        </div>
+        <div class="project-body">
+          <p class="project-date">2022 — 2023</p>
+          <h3 class="project-title">Library Management System</h3>
+          <p class="project-desc">Full-stack Django and SQL web application automating cataloging and borrowing.</p>
+          <div class="project-tags">
+            <span class="tag">Django</span><span class="tag">SQL</span><span class="tag">RESTful APIs</span>
+          </div>
+          <p class="project-more">Covers catalog search, member records, and borrow/return workflows with due-date tracking — built to replace a fully manual paper process.</p>
+          <div class="project-foot">
+            <button class="project-toggle">Details <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 9l6 6 6-6"/></svg></button>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Get In Touch</p>
+      <h2>Let's build something uncompromising.</h2>
+      <p>Have a role, a project, or a system that needs fixing? Tell me about it.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-card">
+        <h3>Direct Contact</h3>
+        <p>Prefer to reach out directly? Use whichever channel works best for you.</p>
+
+        <a class="contact-line" href="mailto:josephndungu10433@gmail.com">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span>
+          <div>
+            <p class="t">EMAIL</p>
+            <p class="d">josephndungu10433@gmail.com</p>
+          </div>
+        </a>
+        <a class="contact-line" href="tel:+254718267798">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg></span>
+          <div>
+            <p class="t">PHONE</p>
+            <p class="d">+254 718 267 798</p>
+          </div>
+        </a>
+        <div class="contact-line contact-line-static">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+          <div>
+            <p class="t">LOCATION</p>
+            <p class="d">Nairobi, Kenya</p>
+          </div>
+        </div>
+        <a class="contact-line" href="https://github.com/true-22" target="_blank" rel="noopener">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.74.5 12.02c0 5.1 3.29 9.42 7.86 10.95.58.1.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.4-5.28 5.69.42.36.78 1.07.78 2.16 0 1.56-.02 2.82-.02 3.2 0 .32.21.67.8.56A10.53 10.53 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5z"/></svg></span>
+          <div>
+            <p class="t">GITHUB</p>
+            <p class="d">github.com</p>
+          </div>
+        </a>
+        <a class="contact-line" href="https://www.linkedin.com/in/joseph-ndungu-dev/" target="_blank" rel="noopener">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.03-1.85-3.03-1.86 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.48-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg></span>
+          <div>
+            <p class="t">LINKEDIN</p>
+            <p class="d">linkedin.com</p>
+          </div>
+        </a>
+      </div>
+
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="field">
+          <label for="cf-name">Name</label>
+          <input type="text" id="cf-name" name="name" placeholder="John Doe" required>
+        </div>
+        <div class="field">
+          <label for="cf-email">Email</label>
+          <input type="email" id="cf-email" name="email" placeholder="johndoe@example.com" required>
+        </div>
+        <div class="field">
+          <label for="cf-message">Message</label>
+          <textarea id="cf-message" name="message" placeholder="Your message here..." required></textarea>
+        </div>
+        <div class="form-foot">
+          <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+          <p class="response-promise">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6L9 17l-5-5"/></svg>
+            I personally respond within 24–48 hours.
+          </p>
+          <div class="form-status" id="formStatus">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6L9 17l-5-5"/></svg>
+            <span>Message received — thank you. I'll be in touch within 48 hours.</span>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="container foot-row">
+    <div>
+      <a href="#home" class="brand-logo foot-logo">
+        <img src="assets/logo-dark.png" alt="Caraxes" class="logo-img logo-img-dark">
+        <img src="assets/logo-light.png" alt="Caraxes" class="logo-img logo-img-light">
+      </a>
+      <p class="foot-tag">Uncompromising Excellence. Undeniable Results.</p>
+    </div>
+    <p class="foot-copy">© 2026 Joseph Mwangi Ndung'u. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- ================= AI CHAT WIDGET ================= -->
+<button class="chat-bubble" id="chatBubble" aria-label="Open AI assistant">
+  <svg class="icon-chat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
+  <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+  <span class="badge-ai">AI</span>
+</button>
+
+<div class="chat-panel" id="chatPanel">
+  <div class="chat-head">
+    <div class="chat-avatar">AI</div>
+    <div class="chat-head-text">
+      <p class="name">Caraxes AI Reply Assistant</p>
+      <p class="status">Online</p>
+    </div>
+    <button class="chat-close" id="chatClose" aria-label="Close chat">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+    </button>
+  </div>
+  <div class="chat-body" id="chatBody">
+    <div class="msg msg-bot">
+      Hi, I'm the Caraxes AI Assistant. Ask me about Joseph's projects, skills, or experience — I'll give you a straight answer.
+      <span class="msg-time" id="welcomeTime"></span>
+    </div>
+  </div>
+  <div class="chat-suggest">
+    <button class="chip" data-q="What are your skills?">Skills</button>
+    <button class="chip" data-q="Tell me about Shamba Smart">Shamba Smart</button>
+    <button class="chip" data-q="What's your experience?">Experience</button>
+    <button class="chip" data-q="How can I contact you?">Contact</button>
+  </div>
+  <form class="chat-input-row" id="chatForm">
+    <input type="text" id="chatInput" placeholder="Ask me anything…" autocomplete="off">
+    <button type="submit" class="chat-send" aria-label="Send">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+    </button>
+  </form>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
